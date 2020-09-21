@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0493fb-adb7-4b5d-aaa4-767e0fdb4e6d" name="Default Changelist" comment="" />
+    <list default="true" id="4b0493fb-adb7-4b5d-aaa4-767e0fdb4e6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200921101623.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ByeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bye/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/say_hello.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_crud/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_crud/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_crud/read.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DemoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DemoController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -119,16 +142,26 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hoPwNhE2BvBkDWbCGWz9N3Rbc3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hoc\Documents\web_mobile\premier-projet" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -139,10 +172,46 @@
       <option name="presentableId" value="Default" />
       <updated>1600674709980</updated>
       <workItem from="1600674711347" duration="1260000" />
+      <workItem from="1600675990645" duration="938000" />
+      <workItem from="1600676941821" duration="531000" />
+      <workItem from="1600677490333" duration="14366000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600680741362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600680741362" />
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1600696009849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600696009849" />
+    <state x="682" y="243" key="NewPhpClassDialog" timestamp="1600696364219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600696364219" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1600678569693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600678569693" />
   </component>
 </project>

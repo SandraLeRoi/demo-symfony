@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des Utilisateurs{% endblock %}
+
+{% block body %}
+
+
+    <div class="example-wrapper">
+        <h1>Utilisateurs</h1>
+
+        <ul>
+            {% for user in users %}
+                <li><a href="{{ path('users_read',{"user":user.id}) }}">{{ user.username }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

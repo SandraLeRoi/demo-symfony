@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <a href="{{ path('users_index') }}">Retour</a>
+    <h1>{{ user.username }}</h1>
+    <h2>{{ user.mail }}</h2>
+    <h2>{{ user.birthday | date("d/m/Y H:i") }}</h2>
+
+{% endblock %}
+
+{% block title %}
+    User {{ user.username }}
+
+{% endblock %}
+
