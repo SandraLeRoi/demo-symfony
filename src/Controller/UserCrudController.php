@@ -50,7 +50,7 @@ class UserCrudController extends AbstractController
     }
 
     /**
-     * @Route("/users/{user}/delete, name="user_delete")
+     * @Route("/users/{user}/delete", name="user_delete")
      */
     public function delete (User $user) {
         $em = $this->getDoctrine()->getManager();
