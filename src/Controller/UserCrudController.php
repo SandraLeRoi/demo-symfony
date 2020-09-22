@@ -21,6 +21,7 @@ class UserCrudController extends AbstractController
             "users"=>$users
         ]);
     }
+
     /**
      * @Route("/users/create", name="users_create")
      */
@@ -30,6 +31,8 @@ class UserCrudController extends AbstractController
         $form->handleRequest($request);
         //dump($user);
         if($form->isSubmitted()&&$form->isValid()){
+            //le formulaire a été envoyé et est valide
+            //je veux sauvegarder mon utilisateur
             $em = $this-> getDoctrine()->getManager();
             $em->persist($user);
             $em->flush();
@@ -46,6 +49,23 @@ class UserCrudController extends AbstractController
     public function read(User $user) {
         return $this->render("user_crud/read.html.twig",[
             "user" => $user
+        ]);
+    }
+
+    /**
+     * @Route("/users/{user}/edit", name="user_edit")
+     */
+    public function edit(User $user, Request $request) {
+        $form = $this->createForm(UserType::class, $user);
+        $form->handleRequest($request);
+        //dump($user);
+        if($form->isSubmitted()&&$form->isValid()){
+            $em = $this-> getDoctrine()->getManager();
+            $em->flush();
+            return $this->redirectToRoute("users_read",["user"=>$user->getId()]);
+        }
+        return $this ->render("user_crud/update.html.twig", [
+            "myForm"=> $form->createView()
         ]);
     }
 

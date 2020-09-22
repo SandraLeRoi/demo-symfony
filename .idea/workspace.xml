@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b0493fb-adb7-4b5d-aaa4-767e0fdb4e6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/user_crud/update.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/UserCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user_crud/read.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_crud/read.html.twig" afterDir="false" />
     </list>
@@ -163,7 +165,10 @@
       <workItem from="1600674711347" duration="1260000" />
       <workItem from="1600675990645" duration="938000" />
       <workItem from="1600676941821" duration="531000" />
-      <workItem from="1600677490333" duration="15005000" />
+      <workItem from="1600677490333" duration="15106000" />
+      <workItem from="1600758517646" duration="2570000" />
+      <workItem from="1600761218558" duration="6000" />
+      <workItem from="1600762340739" duration="665000" />
     </task>
     <servers />
   </component>
@@ -190,6 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600680741362" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600761108052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600761108052" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1600696009849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
